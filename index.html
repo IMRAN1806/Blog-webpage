@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <h1>Blog Application</h1>
+    </div>
+    <form id="create-post-form">
+        <input type="text" id="title" name="title" placeholder="Enter title">
+        <textarea id="content" placeholder="Enter content"></textarea>
+        <button type="submit" value="Create Post" style="background: rgba(0, 0, 0, .3); width: 100px; border-radius: 5px; color: white">Add
+            Post</button>
+    </form>
+    <h2> Blog Posts</h2>
+    <div id="blog-posts"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
